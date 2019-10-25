@@ -1,10 +1,10 @@
 module.exports= {
-  development: {
-    username: "jryulqlv",
-    password: "cWgCI1evao3GTdChTOdGg--oMKXrEs3x",
-    database: "jryulqlv",
-    host: "salt.db.elephantsql.com",
-    dialect: "postgres"  },
+  // development: {
+  //   username: "jryulqlv",
+  //   password: "cWgCI1evao3GTdChTOdGg--oMKXrEs3x",
+  //   database: "jryulqlv",
+  //   host: "salt.db.elephantsql.com",
+  //   dialect: "postgres"  },
   production: {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
