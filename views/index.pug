@@ -1,0 +1,12 @@
+extends layout
+include mixins/tweetForm
+
+append content
+        h1.newsfeed Who's tweeting around the world
+                .card
+                        ul.list-group
+                                each cat in jryulqlv
+                                        li.list-group-item 
+                                                - var catUrl =  cat.id
+                                                h4= cat.posting
+
